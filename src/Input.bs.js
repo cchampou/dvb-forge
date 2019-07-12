@@ -2,12 +2,61 @@
 'use strict';
 
 var React = require("react");
+var Emotion = require("bs-emotion/src/Emotion.bs.js");
+
+var inputStyle = Emotion.css(undefined, /* :: */[
+      Emotion.label("inputStyle"),
+      /* :: */[
+        Emotion.borderRadius(/* `px */[
+              25096,
+              2
+            ]),
+        /* :: */[
+          Emotion.backgroundColor(/* `hex */[
+                5194459,
+                "f2efea"
+              ]),
+          /* :: */[
+            Emotion.borderWidth(/* `px */[
+                  25096,
+                  0
+                ]),
+            /* :: */[
+              Emotion.fontSize(/* `px */[
+                    25096,
+                    20
+                  ]),
+              /* [] */0
+            ]
+          ]
+        ]
+      ]
+    ]);
+
+var labelStyle = Emotion.css(undefined, /* :: */[
+      Emotion.label("labelStyle"),
+      /* :: */[
+        Emotion.color(/* `hex */[
+              5194459,
+              "dbd56e"
+            ]),
+        /* :: */[
+          Emotion.fontSize(/* `px */[
+                25096,
+                20
+              ]),
+          /* [] */0
+        ]
+      ]
+    ]);
 
 function Input(Props) {
   var label = Props.label;
   return React.createElement("label", {
+              className: labelStyle,
               htmlFor: "url"
-            }, label, React.createElement("input", {
+            }, label, React.createElement("br", undefined), React.createElement("input", {
+                  className: inputStyle,
                   id: "url",
                   type: "text"
                 }));
@@ -15,5 +64,7 @@ function Input(Props) {
 
 var make = Input;
 
+exports.inputStyle = inputStyle;
+exports.labelStyle = labelStyle;
 exports.make = make;
-/* react Not a pure module */
+/* inputStyle Not a pure module */

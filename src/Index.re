@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId(<Input label="Choose your URL : " />, "root");
+ReactDOMRe.renderToElementWithId(<GeneratorForm />, "root");

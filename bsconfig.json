@@ -1,6 +1,6 @@
 
 {
-  "name": "react-hooks-template",
+  "name": "dvb-generator",
   "reason": {
     "react-jsx": 3
   },
@@ -15,7 +15,9 @@
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": [
-    "reason-react"
+    "reason-react",
+    "bs-emotion"
   ],
+  "ppx-flags": ["bs-emotion-ppx/ppx"],
   "refmt": 3
 }

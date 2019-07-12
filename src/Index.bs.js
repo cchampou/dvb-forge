@@ -3,10 +3,8 @@
 
 var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
-var Input$ReactHooksTemplate = require("./Input.bs.js");
+var GeneratorForm$DvbGenerator = require("./GeneratorForm.bs.js");
 
-ReactDOMRe.renderToElementWithId(React.createElement(Input$ReactHooksTemplate.make, {
-          label: "Choose your URL : "
-        }), "root");
+ReactDOMRe.renderToElementWithId(React.createElement(GeneratorForm$DvbGenerator.make, { }), "root");
 
 /*  Not a pure module */
