@@ -1,7 +1,13 @@
 open Emotion;
 
 let inputStyle = [%css
-  [borderRadius(`px(2)), backgroundColor(`hex("f2efea")), borderWidth(`px(0)), fontSize(`px(20))]
+  [
+    borderRadius(`px(2)),
+    backgroundColor(`hex("f2efea")),
+    borderWidth(`px(0)),
+    fontSize(`px(20)),
+    minWidth(`px(500)),
+  ]
 ];
 
 let labelStyle = [%css [color(`hex("dbd56e")), fontSize(`px(20))]];
