@@ -7,3 +7,5 @@ npm-debug.log
 
 *.bs.js
 _esy
+_build
+esy.lock

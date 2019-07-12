@@ -14,12 +14,10 @@
   "keywords": [
     "BuckleScript"
   ],
-  "author": "",
+  "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "bs-emotion": "^0.1.1",
-    "express": "^4.17.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "reason-react": ">=0.7.0"
