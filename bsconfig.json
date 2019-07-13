@@ -4,10 +4,13 @@
   "reason": {
     "react-jsx": 3
   },
-  "sources": {
+  "sources": [{
     "dir" : "src",
     "subdirs" : true
-  },
+  },{
+    "dir": "srv",
+    "subdirs": true
+  }],
   "package-specs": [{
     "module": "commonjs",
     "in-source": true
