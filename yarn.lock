@@ -655,6 +655,13 @@ bs-emotion@^0.1.1:
     "@minima.app/re-css" "0.1.0"
     emotion "9.2.12"
 
+bs-express@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/bs-express/-/bs-express-0.12.0.tgz#1fd970c4b75c69c89afc1c4809fc9e2c025ae490"
+  integrity sha512-fbEGZqXeg0leM0Xe25y4F0rPdNJezGpHCySnpfAfkCZgovSj0hGFSJSLv1rzO2/BXD6mE1bCVh86Ws1Pg6cEZA==
+  dependencies:
+    express "^4.16.3"
+
 bs-platform@^5.0.6:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-5.0.6.tgz#88c13041fb020479800de3d82c680bf971091425"
@@ -1547,7 +1554,7 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-express@^4.17.1:
+express@^4.16.3, express@^4.17.1:
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
   integrity sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
