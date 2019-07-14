@@ -9,3 +9,4 @@ npm-debug.log
 _esy
 _build
 esy.lock
+yarn-error.log
