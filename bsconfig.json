@@ -20,7 +20,6 @@
   "bs-dependencies": [
     "reason-react",
     "bs-emotion",
-    "bs-express",
     "@glennsl/bs-json"
   ],
   "ppx-flags": ["bs-emotion-ppx/ppx"],
