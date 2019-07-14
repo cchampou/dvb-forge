@@ -17,6 +17,7 @@
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
   "dependencies": {
+    "@glennsl/bs-json": "^4.0.0",
     "bs-emotion": "^0.1.1",
     "bs-express": "^0.12.0",
     "react": "^16.8.1",
