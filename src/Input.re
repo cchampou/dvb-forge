@@ -13,10 +13,10 @@ let inputStyle = [%css
 let labelStyle = [%css [color(`hex("dbd56e")), fontSize(`px(20))]];
 
 [@react.component]
-let make = (~label) => {
+let make = (~label, ~onChange, ~value) => {
   <label htmlFor="url" className=labelStyle>
     {React.string(label)}
     <br />
-    <input type_="text" id="url" className=inputStyle />
+    <input type_="text" id="url" className=inputStyle onChange value />
   </label>;
 };
